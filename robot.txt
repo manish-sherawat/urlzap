@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin/           # Block any future admin areas (optional)
+Disallow: /private/         # Block any private areas (optional)
+
+# Sitemap
+Sitemap: https://urlzap.netlify.app/sitemap.xml

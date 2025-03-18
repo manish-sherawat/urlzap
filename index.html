@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Meta Tags -->
+    <title>URLZap - Fast & Reliable URL Shortener</title>
+    <meta name="description" content="Shorten your URLs quickly and reliably with URLZap. Create compact links for easy sharing. Free, fast, and secure URL shortening service.">
+    <meta name="keywords" content="URL shortener, shorten URL, link shortener, URLZap, free URL shortening, compact links">
+    <meta name="author" content="URLZap Team">
+    <meta name="robots" content="index, follow">
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="URLZap - Fast & Reliable URL Shortener">
+    <meta property="og:description" content="Shorten your URLs with URLZap for easy sharing. Free and secure service.">
+    <meta property="og:url" content="https://urlzap.netlify.app">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://urlzap.netlify.app/og-image.jpg">
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="URLZap - Fast & Reliable URL Shortener">
+    <meta name="twitter:description" content="Shorten your URLs with URLZap for easy sharing.">
+    <meta name="twitter:image" content="https://urlzap.netlify.app/og-image.jpg">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <!-- Preload CSS -->
+    <link rel="preload" href="styles.css" as="style">
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE_HERE">
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="particles"></canvas>
+    <div class="container">
+        <header>
+            <h1>URLZap</h1>
+            <p>A fast, reliable URL shortening service</p>
+        </header>
+
+        <nav>
+            <a href="/" aria-label="Home">Home</a>
+            <a href="about.html" aria-label="About Us">About</a>
+            <a href="contact.html" aria-label="Contact Us">Contact</a>
+            <a href="privacy.html" aria-label="Privacy Policy">Privacy Policy</a>
+            <a href="terms.html" aria-label="Terms of Service">Terms of Service</a>
+        </nav>
+
+        <main class="main-content">
+            <section>
+                <h2>Shorten Your URL</h2>
+                <p>Enter a long URL below to get a shortened version instantly!</p>
+                <div class="input-group">
+                    <input type="url" id="urlInput" placeholder="Enter your URL here..." required aria-label="URL input">
+                </div>
+                <button class="btn" onclick="shortenURL()">Shorten URL</button>
+                <div class="result" id="result">
+                    <p id="shortenedURL" aria-live="polite"></p>
+                    <div class="copy-btn" onclick="copyURL()">Copy</div>
+                </div>
+            </section>
+
+            <div class="adsense-placeholder">
+                <p>AdSense Ad Placeholder (300x250)</p>
+            </div>
+
+            <section>
+                <h2>Why Use URLZap?</h2>
+                <p>URLZap provides a free, fast, and secure way to shorten your URLs. Whether you're sharing links on social media, emails, or anywhere else, our service ensures your links are concise and easy to use.</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2025 URLZap. All rights reserved. | 
+            <a href="privacy.html">Privacy Policy</a> | 
+            <a href="terms.html">Terms of Service</a> | 
+            <a href="contact.html">Contact Us</a></p>
+        </footer>
+    </div>
+
+    <!-- Sitemap Link -->
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+    <!-- JS Link -->
+    <script src="script.js" defer></script>
+</body>
+</html>
